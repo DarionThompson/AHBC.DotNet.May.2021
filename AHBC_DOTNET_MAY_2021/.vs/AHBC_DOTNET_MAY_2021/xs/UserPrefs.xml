@@ -1,14 +1,18 @@
 ﻿<Properties StartupConfiguration="{50795BD8-791A-4A12-906F-E67EC103386B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AHBC_DOTNET_MAY_2021/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Loops/Program.cs">
     <Files>
-      <File FileName="AHBC_DOTNET_MAY_2021/Program.cs" Line="8" Column="9" />
       <File FileName="HelloWorld/Program.cs" Line="108" Column="10" />
+      <File FileName="Loops/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="AHBC_DOTNET_MAY_2021" expanded="True" selected="True">
-            <Node name="May25thIntroduction" expanded="True" />
+          <Node name="AHBC_DOTNET_MAY_2021" expanded="True">
+            <Node name="May26ThLoopIntro" expanded="True">
+              <Node name="Loops" expanded="True">
+                <Node name="Program.cs" selected="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -20,6 +24,7 @@
     <String>AHBC_DOTNET_MAY_2021/AHBC_DOTNET_MAY_2021.csproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.May26ThLoopIntro.Loops FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
