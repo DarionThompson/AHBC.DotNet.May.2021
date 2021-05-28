@@ -7,79 +7,101 @@ namespace Loops
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hey can you write");
+            //Review
+            Console.WriteLine("Hey can you write");
 
-            //string response = Console.ReadLine();
+            string response = Console.ReadLine();
 
-            //if (true)
+            if (true)
+            {
+                //Then execute this line of code
+            }
+            else
+            {
+                //Then execute this line of code
+            }
+
+            int switchNumber = 5;
+
+            switch (switchNumber)
+            {
+                case 1:
+                    Console.WriteLine("case one");
+                    break;
+
+                case 5:
+                    Console.WriteLine("Case 5");
+                    break;
+
+                default:
+                    break;
+            }
+
+            //Explicit casting
+            double number = 22.50;
+            int secondNumber = (int)number;
+
+            //implicit Casting
+            int thirdNumber = 3;
+            double num = thirdNumber;
+
+            //LOOPS
+            //While loop
+            while (num <= 5)
+            {
+                Console.WriteLine("I Just looped bro");
+                num++;
+            }
+
+            //Example of an infinite loop
+            //while (false)
             //{
-            //    //Then execute this line of code
+            //    Console.WriteLine("I will never end bro");
             //}
-            //else
-            //{
-            //    //Then execute this line of code
-            //}
 
-            //int switchNumber = 5;
+            //Do While Loop
+            int secondControlNumber = 0;
+            do
+            {
+                Console.WriteLine("I will always execute at least once");
+                secondControlNumber++;
+            } while (secondControlNumber <= 5);
 
-            //switch (switchNumber)
-            //{
-            //    case 1: Console.WriteLine("case one");
-            //        break;
+            //I want to keep looping until the user tells me no (N)
+            Console.WriteLine("Hey Bro Can you tell me (Y) yes or (N) no ?");
+            string userInput = "";
+            do
+            {
+                Console.WriteLine("Do you want me to keep looping");
+                userInput = Console.ReadLine();
 
-            //    case 5:
-            //        Console.WriteLine("Case 5");
-            //        break;
-
-            //    default:
-            //        break;
-            //}
-
-            ////Explicit casting
-            //double number = 22.50;
-            //int secondNumber = (int)number;
-
-            ////implicit Casting
-            //int thirdNumber = 3;
-            //double num = thirdNumber;
-
-            //while (num <= 5)
-            //{
-            //    Console.WriteLine("I Just looped bro");
-            //    num++;
-            //}
-            ////Example of an infinite loop
-            ////while (false)
-            ////{
-            ////    Console.WriteLine("I will never end bro");
-            ////}
-
-            //int secondControlNumber = 0;
-            //do
-            //{
-            //    Console.WriteLine("I will always execute at least once");
-            //    secondControlNumber++;
-            //} while (secondControlNumber <= 5);
-
-            ////I want to keep looping until the user tells me no (N)
-            //Console.WriteLine("Hey Bro Can you tell me (Y) yes or (N) no ?");
-            //string userInput = "";
-            //do
-            //{
-            //    Console.WriteLine("Do you want me to keep looping");
-            //    userInput = Console.ReadLine();
-
-            //} while (userInput != "N");
+            } while (userInput != "N");
 
             //for-loop
-            
+            //Oder of exectution
+            //1               2       4
+            for (int j = 10; j > 0; j--)
+            {
+                //3
+                Console.WriteLine(j);
+            }
 
-            //for (int j = 10; j > 0; j--)
-            //{
-            //    //3
-            //    Console.WriteLine(j);
-            //}
 
+            int[] array = new int[]
+            {
+              //0,1,2,3,4
+                1,2,3,4,5
+            };
+
+            //Oder of exectution
+            //1             2       4
+            for (int i = 0; i < array.Length; i++)
+            {
+                //3
+                Console.WriteLine(array[i]);
+            }
+
+            //foreach loop
             var names = new List<string>
             {
                 "Robert",
@@ -87,22 +109,26 @@ namespace Loops
                 "The Bax man"
             };
             var nameE = "Robert";
-            
+
             foreach (var name in names)
             {
                 Console.WriteLine(name);
             }
 
-            int[] array = new int[]
+
+            //Here is the tryparse example :) 
+            Console.WriteLine("Please enter a number");
+            var userResponse = Console.ReadLine();
+
+            var canBeParsed = int.TryParse(userResponse, out int result);
+
+            if(canBeParsed)
             {
-              //0,1,2,3,4
-                1,2
-            };
-            //1             2               4
-            for (int i = 0; i < 3; i++)
+                Console.WriteLine(result);
+            }
+            else
             {
-                //3
-                Console.WriteLine(array[i]);
+                Console.WriteLine("you didnt give me a number");
             }
         }
     }
