@@ -1,13 +1,21 @@
-﻿<Properties StartupConfiguration="{CFA98CE5-5ADE-4C77-9E5E-EF91DA215F56}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Loops/Program.cs">
+﻿<Properties StartupConfiguration="{EC8C04CB-DCB7-45FF-8B22-AF4BE824A575}|Default">
+  <MonoDevelop.Ide.ItemProperties.June2ndMethods.Methods PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Methods/Program.cs">
     <Files>
-      <File FileName="Loops/Program.cs" Line="62" Column="28" />
+      <File FileName="Methods/Program.cs" Line="33" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AHBC_DOTNET_MAY_2021" expanded="True">
-            <Node name="May26ThLoopIntro" expanded="True" />
+            <Node name="June2ndMethods" expanded="True">
+              <Node name="Methods" expanded="True">
+                <Node name="Program.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="May26ThLoopIntro" expanded="True">
+              <Node name="Loops" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
