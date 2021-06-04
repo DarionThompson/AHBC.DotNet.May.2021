@@ -1,20 +1,18 @@
 ﻿<Properties StartupConfiguration="{EC8C04CB-DCB7-45FF-8B22-AF4BE824A575}|Default">
   <MonoDevelop.Ide.ItemProperties.June2ndMethods.Methods PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Methods/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="StringsExample/Program.cs">
     <Files>
-      <File FileName="Methods/Program.cs" Line="24" Column="13" />
+      <File FileName="Methods/Program.cs" Line="33" Column="1" />
+      <File FileName="StringsExample/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AHBC_DOTNET_MAY_2021" expanded="True">
-            <Node name="June2ndMethods" expanded="True">
-              <Node name="Methods" expanded="True">
+            <Node name="June3rdStrings" expanded="True">
+              <Node name="StringsExample" expanded="True">
                 <Node name="Program.cs" selected="True" />
               </Node>
-            </Node>
-            <Node name="May26ThLoopIntro" expanded="True">
-              <Node name="Loops" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -32,4 +30,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.June3rdStrings.StringsExample FirstBuild="True" />
 </Properties>
