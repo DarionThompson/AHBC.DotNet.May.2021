@@ -1,16 +1,16 @@
-﻿<Properties StartupConfiguration="{EC8C04CB-DCB7-45FF-8B22-AF4BE824A575}|Default">
+﻿<Properties StartupConfiguration="{5E0DFF52-37D9-444D-B361-E185D74DF762}|Default">
+  <MonoDevelop.Ide.ItemProperties.June6thArrays.IntroArrays FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.June2ndMethods.Methods PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="StringsExample/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IntroArrays/Program.cs">
     <Files>
-      <File FileName="Methods/Program.cs" Line="33" Column="1" />
-      <File FileName="StringsExample/Program.cs" Line="1" Column="1" />
+      <File FileName="IntroArrays/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AHBC_DOTNET_MAY_2021" expanded="True">
-            <Node name="June3rdStrings" expanded="True">
-              <Node name="StringsExample" expanded="True">
+            <Node name="June6thArrays" expanded="True">
+              <Node name="IntroArrays" expanded="True">
                 <Node name="Program.cs" selected="True" />
               </Node>
             </Node>
@@ -30,5 +30,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.June3rdStrings.StringsExample FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.June3rdStrings.StringsExample PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

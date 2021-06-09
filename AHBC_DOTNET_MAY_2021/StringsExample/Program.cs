@@ -16,7 +16,7 @@ namespace StringsExample
             var userInput = Console.ReadLine();
             var number = int.Parse(userInput);
 
-            //Third
+            //Third unit of work
             for (int i = number - 1; i > 0; i--)
             {
                 number *= i;
@@ -25,12 +25,13 @@ namespace StringsExample
             //fourth unit of work
             Console.WriteLine(number);
 
-
             //new way of methods
             DisplayMessage();
             int userNumber = GetUserInput();
             int result = CalculateFactorial(userNumber);
             DisplayResult(result);
+
+            //Here is the recursion factorial example
 
 
             //Strings
