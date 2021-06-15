@@ -1,16 +1,17 @@
-﻿<Properties StartupConfiguration="{5E0DFF52-37D9-444D-B361-E185D74DF762}|Default">
-  <MonoDevelop.Ide.ItemProperties.June6thArrays.IntroArrays FirstBuild="True" />
+﻿<Properties StartupConfiguration="{5B3DE673-3933-48F3-88CB-68B8FA5AB56F}|Default">
+  <MonoDevelop.Ide.ItemProperties.June14ThExamples.LINQExamples FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.June6thArrays.IntroArrays PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.June2ndMethods.Methods PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="IntroArrays/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LINQExamples/Program.cs">
     <Files>
-      <File FileName="IntroArrays/Program.cs" Line="1" Column="1" />
+      <File FileName="LINQExamples/Program.cs" Line="9" Column="13" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AHBC_DOTNET_MAY_2021" expanded="True">
-            <Node name="June6thArrays" expanded="True">
-              <Node name="IntroArrays" expanded="True">
+            <Node name="June14ThExamples" expanded="True">
+              <Node name="LINQExamples" expanded="True">
                 <Node name="Program.cs" selected="True" />
               </Node>
             </Node>

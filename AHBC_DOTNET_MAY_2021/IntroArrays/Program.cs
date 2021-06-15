@@ -52,7 +52,7 @@ namespace IntroArrays
             Console.WriteLine(refExample[0]);
 
             int[] copyToArray = new int[6];
-
+            //int[] copyToArray = refExample;
             refExample.CopyTo(copyToArray, 0);
 
             copyToArray[0] = 6;
