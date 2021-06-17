@@ -1,17 +1,21 @@
-﻿<Properties StartupConfiguration="{5B3DE673-3933-48F3-88CB-68B8FA5AB56F}|Default">
-  <MonoDevelop.Ide.ItemProperties.June14ThExamples.LINQExamples FirstBuild="True" />
+﻿<Properties StartupConfiguration="{B7301766-53AA-4822-B7E7-3E274EF5366D}|Default">
+  <MonoDevelop.Ide.ItemProperties.June14ThExamples.LINQExamples PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.June6thArrays.IntroArrays PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.June16thExamples.ErrorHandlingExamples PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.June2ndMethods.Methods PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="LINQExamples/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ErrorHandlingExamples/Program.cs">
     <Files>
-      <File FileName="LINQExamples/Program.cs" Line="9" Column="13" />
+      <File FileName="ErrorHandlingExamples/Program.cs" Line="46" Column="61" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AHBC_DOTNET_MAY_2021" expanded="True">
             <Node name="June14ThExamples" expanded="True">
-              <Node name="LINQExamples" expanded="True">
+              <Node name="LINQExamples" expanded="True" />
+            </Node>
+            <Node name="June16thExamples" expanded="True">
+              <Node name="ErrorHandlingExamples" expanded="True">
                 <Node name="Program.cs" selected="True" />
               </Node>
             </Node>
@@ -28,7 +32,12 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.May26ThLoopIntro.Loops PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/ErrorHandlingExamples/Program.cs" relfile="ErrorHandlingExamples/Program.cs" line="15" column="1" />
+      <Breakpoint file="/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/ErrorHandlingExamples/Program.cs" relfile="ErrorHandlingExamples/Program.cs" line="35" column="1" />
+      <Breakpoint file="/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/ErrorHandlingExamples/Program.cs" relfile="ErrorHandlingExamples/Program.cs" line="41" column="1" />
+      <Breakpoint file="/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/ErrorHandlingExamples/Program.cs" relfile="ErrorHandlingExamples/Program.cs" line="65" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.June3rdStrings.StringsExample PreferredExecutionTarget="MonoDevelop.Default" />
