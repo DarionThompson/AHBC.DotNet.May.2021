@@ -39,7 +39,23 @@ namespace ErrorHandlingExamples
 
             #region Regex
             ValidateUserInput();
+            ValidateUserEmail();
             #endregion
+        }
+        static void ValidateUserEmail()
+        {
+            Regex emailPattern = new Regex(@"(\w+)@(\w+)(\.(\w{2,3}))");
+            Console.WriteLine("please Enter a valid Email address");
+            var emailAddress = Console.ReadLine();
+
+            if (emailPattern.IsMatch(emailAddress))
+            {
+                Console.WriteLine("Valid email bro");
+            }
+            else
+            {
+                Console.WriteLine("Invalid email bro");
+            }
         }
         static void ValidateUserInput()
         {
