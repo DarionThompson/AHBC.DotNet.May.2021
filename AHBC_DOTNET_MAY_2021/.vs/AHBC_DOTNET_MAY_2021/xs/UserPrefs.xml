@@ -1,21 +1,27 @@
-﻿<Properties StartupConfiguration="{0E420B7C-6E87-4433-AE65-B61B8A15CB4C}|Default">
+﻿<Properties StartupConfiguration="{13DAFE72-F787-4D0C-99AD-891BAF76B0F4}|Default">
   <MonoDevelop.Ide.ItemProperties.June17thExamples.IntroToOOP PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.June14ThExamples.LINQExamples PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.June6thArrays.IntroArrays PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.June16thExamples.ErrorHandlingExamples PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.June2ndMethods.Methods PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="InheritanceExamples/MotorCycle.cs">
     <Files>
-      <File FileName="ClassesAndObjects/Program.cs" Line="40" Column="33" />
-      <File FileName="ClassesAndObjects/Pen.cs" Line="4" Column="2" />
+      <File FileName="InheritanceExamples/Program.cs" Line="44" Column="1" />
+      <File FileName="InheritanceExamples/Truck.cs" Line="4" Column="6" />
+      <File FileName="InheritanceExamples/SUV.cs" Line="1" Column="1" />
+      <File FileName="InheritanceExamples/Sedan.cs" Line="1" Column="1" />
+      <File FileName="InheritanceExamples/RV.cs" Line="1" Column="1" />
+      <File FileName="InheritanceExamples/Cat.cs" Line="1" Column="1" />
+      <File FileName="InheritanceExamples/MotorCycle.cs" Line="15" Column="26" />
+      <File FileName="InheritanceExamples/Automobile.cs" Line="5" Column="6" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AHBC_DOTNET_MAY_2021" expanded="True">
-            <Node name="June21stExamples" expanded="True">
-              <Node name="ClassesAndObjects" expanded="True">
-                <Node name="Book.cs" selected="True" />
+            <Node name="June23rdExamples" expanded="True">
+              <Node name="InheritanceExamples" expanded="True">
+                <Node name="MotorCycle.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -29,6 +35,7 @@
   <DisabledProjects>
     <String>AHBC_DOTNET_MAY_2021/AHBC_DOTNET_MAY_2021.csproj</String>
   </DisabledProjects>
+  <MonoDevelop.Ide.ItemProperties.June23rdExamples.InheritanceExamples PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.May26ThLoopIntro.Loops PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -40,6 +47,8 @@
       <Breakpoint file="/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/IntroToOOP/Cars.cs" relfile="IntroToOOP/Cars.cs" line="23" column="1" />
       <Breakpoint file="/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/IntroToOOP/Program.cs" relfile="IntroToOOP/Program.cs" line="63" column="1" />
       <Breakpoint file="/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/ClassesAndObjects/Book.cs" relfile="ClassesAndObjects/Book.cs" line="26" column="1" />
+      <Breakpoint file="/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/InheritanceExamples/Truck.cs" relfile="InheritanceExamples/Truck.cs" line="8" column="1" />
+      <Breakpoint file="/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/InheritanceExamples/Program.cs" relfile="InheritanceExamples/Program.cs" line="43" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
