@@ -1,6 +1,7 @@
 ﻿using System;
 namespace InheritanceExamples
 {
+    //Child Class
     public class MotorCycle : Automobile
     {
 

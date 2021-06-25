@@ -1,5 +1,6 @@
 ﻿namespace InheritanceExamples
 {
+    //Child Class 
     public class Sedan : Automobile
     {
 

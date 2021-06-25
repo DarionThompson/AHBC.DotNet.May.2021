@@ -1,6 +1,7 @@
 ﻿using System;
 namespace InheritanceExamples
 {
+    //Parent Class
     public class Automobile
     {
         public int NumberOfWheels { get; set; }
@@ -14,6 +15,13 @@ namespace InheritanceExamples
         {
             NumberOfWheels = numberOfWheels;
             NumberOfSeats = numberOfSeats;
+        }
+
+        public Automobile(int numberOfWheels, int numberOfSeats, int numberOfDoors, string color, string model) : this(numberOfWheels, numberOfSeats)
+        {
+            NumberOfDoors = numberOfDoors;
+            Color = color;
+            Model = model;
         }
 
         public Automobile()
