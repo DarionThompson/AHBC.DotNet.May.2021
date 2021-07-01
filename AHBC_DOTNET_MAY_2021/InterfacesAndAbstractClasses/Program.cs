@@ -26,6 +26,7 @@ namespace InterfacesAndAbstractClasses
 
             #endregion
 
+            #region InterfaceExample
             IAnimal cat = new Cat();
             cat.Name = "Fritz";
             cat.Weight = 50;
@@ -37,7 +38,13 @@ namespace InterfacesAndAbstractClasses
 
             Cat thirdCat = new Cat();
             thirdCat.HasKittens = true;
-            thirdCat.ScratchFurniture("Couch"); 
+
+            var monkey = new Monkey();
+            #endregion
+
+            Example(cat);
+            Example(thirdCat);
+            Example(monkey);
         }
 
         #region PolymorphismExampleWithAbstactType
@@ -45,6 +52,11 @@ namespace InterfacesAndAbstractClasses
         public static void PrintPerson(Person person)
         {
             Console.WriteLine(person.Name);
+        }
+
+        public static void Example(IAnimal animal)
+        {
+
         }
         #endregion
     }

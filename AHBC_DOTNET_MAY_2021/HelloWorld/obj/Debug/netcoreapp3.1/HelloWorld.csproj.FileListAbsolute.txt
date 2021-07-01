@@ -1,0 +1,12 @@
+/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/HelloWorld/bin/Debug/netcoreapp3.1/HelloWorld.deps.json
+/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/HelloWorld/bin/Debug/netcoreapp3.1/HelloWorld.runtimeconfig.json
+/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/HelloWorld/bin/Debug/netcoreapp3.1/HelloWorld.runtimeconfig.dev.json
+/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/HelloWorld/bin/Debug/netcoreapp3.1/HelloWorld.dll
+/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/HelloWorld/bin/Debug/netcoreapp3.1/HelloWorld.pdb
+/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.csprojAssemblyReference.cache
+/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.AssemblyInfoInputs.cache
+/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.AssemblyInfo.cs
+/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.csproj.CoreCompileInputs.cache
+/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.dll
+/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.pdb
+/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.genruntimeconfig.cache

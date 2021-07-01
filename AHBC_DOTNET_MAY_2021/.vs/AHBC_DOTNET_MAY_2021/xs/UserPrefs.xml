@@ -1,36 +1,48 @@
-﻿<Properties StartupConfiguration="{19AD3CE7-C471-45F0-8863-02D7A7656782}|Default">
+﻿<Properties StartupConfiguration="{68969AB9-9C3B-4B9A-A436-BD05044ECAF4}|Default">
   <MonoDevelop.Ide.ItemProperties.June17thExamples.IntroToOOP PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.June14ThExamples.LINQExamples PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.June6thArrays.IntroArrays PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.June16thExamples.ErrorHandlingExamples PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.June2ndMethods.Methods PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="InterfacesAndAbstractClasses/Monkey.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="UnitTestExample/OOPLabExample/IPlayer.cs">
     <Files>
-      <File FileName="InterfacesAndAbstractClasses/Program.cs" Line="57" Column="41" />
-      <File FileName="InterfacesAndAbstractClasses/Monkey.cs" Line="23" Column="6" NotebookId="1" />
+      <File FileName="UnitTestExample/OOPLabExample/RockPlayer.cs" Line="11" Column="8" />
+      <File FileName="UnitTestExample/OOPLabExample/RandomPlayer.cs" Line="12" Column="10" />
+      <File FileName="UnitTestExample/OOPLabExample/HumanPlayer.cs" Line="13" Column="1" />
+      <File FileName="UnitTestExample/OOPLabExample/Program.cs" Line="15" Column="1" />
+      <File FileName="UnitTestExample/OOPLabExample/IPlayer.cs" Line="6" Column="19" />
+      <File FileName="UnitTestExample/OOPLabExample/Player.cs" Line="11" Column="54" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AHBC_DOTNET_MAY_2021" expanded="True">
-            <Node name="June24thExamples" expanded="True">
-              <Node name="InterfacesAndAbstractClasses" expanded="True">
-                <Node name="Monkey.cs" selected="True" />
+            <Node name="June30thExample" expanded="True">
+              <Node name="OOPLabExample" expanded="True">
+                <Node name="IPlayer.cs" selected="True" />
               </Node>
             </Node>
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="AHBC_DOTNET_MAY_2021" selected="True" />
+        </State>
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.June28thExamples.EnumExampless PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.June21stExamples.ClassesAndObjects PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.May25thIntroduction.HelloWorld PreferredExecutionTarget="MonoDevelop.Default" />
   <DisabledProjects>
     <String>AHBC_DOTNET_MAY_2021/AHBC_DOTNET_MAY_2021.csproj</String>
+    <String>UnitTestExample/Tests/Tests.csproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.ItemProperties.June23rdExamples.InheritanceExamples PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.June30thExample.OOPLabExample PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.May26ThLoopIntro.Loops PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
@@ -42,9 +54,11 @@
       <Breakpoint file="/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/IntroToOOP/Program.cs" relfile="IntroToOOP/Program.cs" line="63" column="1" />
       <Breakpoint file="/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/ClassesAndObjects/Book.cs" relfile="ClassesAndObjects/Book.cs" line="26" column="1" />
       <Breakpoint file="/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/InheritanceExamples/Program.cs" relfile="InheritanceExamples/Program.cs" line="45" column="1" />
+      <Breakpoint file="/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/EnumExampless/Program.cs" relfile="EnumExampless/Program.cs" line="54" column="1" />
+      <Breakpoint file="/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/UnitTestExample/OOPLabExample/Program.cs" relfile="UnitTestExample/OOPLabExample/Program.cs" line="13" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.June3rdStrings.StringsExample PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.June24thExamples.InterfacesAndAbstractClasses FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.June24thExamples.InterfacesAndAbstractClasses PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
