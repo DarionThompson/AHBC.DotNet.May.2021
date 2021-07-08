@@ -1,39 +1,33 @@
-﻿<Properties StartupConfiguration="{68969AB9-9C3B-4B9A-A436-BD05044ECAF4}|Default">
+﻿<Properties StartupConfiguration="{FBCAAEEE-5972-4168-8271-A5E115A6A13C}|Default">
   <MonoDevelop.Ide.ItemProperties.June17thExamples.IntroToOOP PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.June14ThExamples.LINQExamples PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.June6thArrays.IntroArrays PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.July7thExamples.FileI.O PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.June16thExamples.ErrorHandlingExamples PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.June2ndMethods.Methods PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="UnitTestExample/OOPLabExample/IPlayer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FileI.O/FileService.cs">
     <Files>
-      <File FileName="UnitTestExample/OOPLabExample/RockPlayer.cs" Line="11" Column="8" />
-      <File FileName="UnitTestExample/OOPLabExample/RandomPlayer.cs" Line="12" Column="10" />
-      <File FileName="UnitTestExample/OOPLabExample/HumanPlayer.cs" Line="13" Column="1" />
-      <File FileName="UnitTestExample/OOPLabExample/Program.cs" Line="15" Column="1" />
-      <File FileName="UnitTestExample/OOPLabExample/IPlayer.cs" Line="6" Column="19" />
-      <File FileName="UnitTestExample/OOPLabExample/Player.cs" Line="11" Column="54" NotebookId="1" />
+      <File FileName="FileI.O/Program.cs" Line="24" Column="60" />
+      <File FileName="FileI.O/FileService.cs" Line="22" Column="1" />
+      <File FileName="FileI.O/FileUtility.cs" Line="6" Column="9" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AHBC_DOTNET_MAY_2021" expanded="True">
-            <Node name="June30thExample" expanded="True">
-              <Node name="OOPLabExample" expanded="True">
-                <Node name="IPlayer.cs" selected="True" />
+            <Node name="July7thExamples" expanded="True">
+              <Node name="FileI.O" expanded="True">
+                <Node name="FileService.cs" selected="True" />
               </Node>
             </Node>
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="AHBC_DOTNET_MAY_2021" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.June28thExamples.EnumExampless PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.June21stExamples.ClassesAndObjects PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.July1stReview.Assessment2Review PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.May25thIntroduction.HelloWorld PreferredExecutionTarget="MonoDevelop.Default" />
   <DisabledProjects>
@@ -55,7 +49,8 @@
       <Breakpoint file="/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/ClassesAndObjects/Book.cs" relfile="ClassesAndObjects/Book.cs" line="26" column="1" />
       <Breakpoint file="/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/InheritanceExamples/Program.cs" relfile="InheritanceExamples/Program.cs" line="45" column="1" />
       <Breakpoint file="/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/EnumExampless/Program.cs" relfile="EnumExampless/Program.cs" line="54" column="1" />
-      <Breakpoint file="/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/UnitTestExample/OOPLabExample/Program.cs" relfile="UnitTestExample/OOPLabExample/Program.cs" line="13" column="1" />
+      <Breakpoint file="/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/UnitTestExample/OOPLabExample/Program.cs" relfile="UnitTestExample/OOPLabExample/Program.cs" line="15" column="1" />
+      <Breakpoint file="/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/FileI.O/Program.cs" relfile="FileI.O/Program.cs" line="31" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
