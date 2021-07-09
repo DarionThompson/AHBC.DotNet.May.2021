@@ -8,24 +8,31 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "/Users/darionthompson/.nuget/packages/": {}
+    "C:\\Users\\baxte\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/Loops/Loops.csproj",
+      "projectUniqueName": "C:\\Users\\baxte\\Desktop\\Trash\\AHBC.DotNet.May.2021\\AHBC_DOTNET_MAY_2021\\Loops\\Loops.csproj",
       "projectName": "Loops",
-      "projectPath": "/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/Loops/Loops.csproj",
-      "packagesPath": "/Users/darionthompson/.nuget/packages/",
-      "outputPath": "/Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/Loops/obj/",
+      "projectPath": "C:\\Users\\baxte\\Desktop\\Trash\\AHBC.DotNet.May.2021\\AHBC_DOTNET_MAY_2021\\Loops\\Loops.csproj",
+      "packagesPath": "C:\\Users\\baxte\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\baxte\\Desktop\\Trash\\AHBC.DotNet.May.2021\\AHBC_DOTNET_MAY_2021\\Loops\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "/Users/darionthompson/.config/NuGet/NuGet.Config"
+        "C:\\Users\\baxte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -58,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
