@@ -7,6 +7,7 @@ namespace FileI.O
 {
     public static class FileService
     {
+        
         public static void CreateFile(string fileName)
         {
             if (!File.Exists(fileName))
@@ -56,6 +57,22 @@ namespace FileI.O
         public static void DeleteFile(string fileName)
         {
             File.Delete(fileName);
+        }
+
+        public static void ReadTranslationFromFile(string fileName, Dictionary<string, string> translationLookup)
+        {
+            using StreamReader streamReader = new StreamReader(fileName);
+
+            while (!streamReader.EndOfStream)
+            {
+                var line = streamReader.ReadLine();
+                var stringArray = line.Split(',');
+
+                var key = stringArray[0];
+                var value = stringArray[1];
+
+                translationLookup.Add(key, value);
+            }
         }
     }
 }

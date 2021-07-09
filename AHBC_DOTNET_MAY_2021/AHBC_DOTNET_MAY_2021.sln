@@ -63,6 +63,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "July7thExamples", "July7thE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileI.O", "FileI.O\FileI.O.csproj", "{FBCAAEEE-5972-4168-8271-A5E115A6A13C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "July8thExample", "July8thExample", "{0B1DF266-E451-4898-B541-178E46267CBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
