@@ -6,9 +6,11 @@
   <MonoDevelop.Ide.ItemProperties.June16thExamples.ErrorHandlingExamples PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.June2ndMethods.Methods PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.July8thExample.BranchExample FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BranchExample/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BranchExample/User.cs">
     <Files>
-      <File FileName="BranchExample/Program.cs" Line="1" Column="1" />
+      <File FileName="BranchExample/Program.cs" Line="14" Column="1" />
+      <File FileName="BranchExample/User.cs" Line="6" Column="19" />
+      <File FileName="BranchExample/Darion.cs" Line="11" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,7 +19,7 @@
             <Node name="July1stReview" expanded="True" />
             <Node name="July8thExample" expanded="True">
               <Node name="BranchExample" expanded="True">
-                <Node name="Program.cs" selected="True" />
+                <Node name="User.cs" selected="True" />
               </Node>
             </Node>
           </Node>
