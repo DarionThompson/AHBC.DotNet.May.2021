@@ -6,7 +6,7 @@ namespace BranchExample
     {
         static void Main(string[] args)
         {
-            var name = "Darion";
+            var name = Console.ReadLine();
             Console.WriteLine($"Hello World, from {name}!");
         }
     }
