@@ -1,0 +1,19 @@
+﻿@model LibraryViewModel
+
+<h1>Welcome to the @Model.Name</h1>
+
+
+<h3>Here are the list of books I have :</h3>
+
+@if (Model.Books.Count.Equals(0))
+{
+    <p>Sorry bro no books available</p>
+}
+else
+{
+
+    @foreach (var book in Model.Books)
+    {
+        <li>@Html.ActionLink($"{book.Name}", "ViewBook", "Library", new { id = book.Id })</li>
+    }
+}

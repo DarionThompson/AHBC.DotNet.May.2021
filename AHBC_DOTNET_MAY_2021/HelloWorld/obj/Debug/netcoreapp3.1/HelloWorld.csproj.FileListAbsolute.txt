@@ -10,3 +10,15 @@
 /Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.dll
 /Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.pdb
 /Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.genruntimeconfig.cache
+C:\Users\dario\Desktop\AHBC.DotNet.May.2021\AHBC_DOTNET_MAY_2021\HelloWorld\bin\Debug\netcoreapp3.1\HelloWorld.exe
+C:\Users\dario\Desktop\AHBC.DotNet.May.2021\AHBC_DOTNET_MAY_2021\HelloWorld\bin\Debug\netcoreapp3.1\HelloWorld.deps.json
+C:\Users\dario\Desktop\AHBC.DotNet.May.2021\AHBC_DOTNET_MAY_2021\HelloWorld\bin\Debug\netcoreapp3.1\HelloWorld.runtimeconfig.json
+C:\Users\dario\Desktop\AHBC.DotNet.May.2021\AHBC_DOTNET_MAY_2021\HelloWorld\bin\Debug\netcoreapp3.1\HelloWorld.runtimeconfig.dev.json
+C:\Users\dario\Desktop\AHBC.DotNet.May.2021\AHBC_DOTNET_MAY_2021\HelloWorld\bin\Debug\netcoreapp3.1\HelloWorld.dll
+C:\Users\dario\Desktop\AHBC.DotNet.May.2021\AHBC_DOTNET_MAY_2021\HelloWorld\bin\Debug\netcoreapp3.1\HelloWorld.pdb
+C:\Users\dario\Desktop\AHBC.DotNet.May.2021\AHBC_DOTNET_MAY_2021\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.AssemblyInfoInputs.cache
+C:\Users\dario\Desktop\AHBC.DotNet.May.2021\AHBC_DOTNET_MAY_2021\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.AssemblyInfo.cs
+C:\Users\dario\Desktop\AHBC.DotNet.May.2021\AHBC_DOTNET_MAY_2021\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\dario\Desktop\AHBC.DotNet.May.2021\AHBC_DOTNET_MAY_2021\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.dll
+C:\Users\dario\Desktop\AHBC.DotNet.May.2021\AHBC_DOTNET_MAY_2021\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.pdb
+C:\Users\dario\Desktop\AHBC.DotNet.May.2021\AHBC_DOTNET_MAY_2021\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.genruntimeconfig.cache
