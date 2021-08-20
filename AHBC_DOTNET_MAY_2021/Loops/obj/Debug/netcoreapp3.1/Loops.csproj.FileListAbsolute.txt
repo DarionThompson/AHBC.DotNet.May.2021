@@ -10,3 +10,16 @@
 /Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/Loops/obj/Debug/netcoreapp3.1/Loops.dll
 /Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/Loops/obj/Debug/netcoreapp3.1/Loops.pdb
 /Users/darionthompson/Desktop/Grand_Circus/AHBC_DOTNET_MAY_2021/Loops/obj/Debug/netcoreapp3.1/Loops.genruntimeconfig.cache
+C:\Users\dario\Desktop\AHBC.DotNet.May.2021\AHBC_DOTNET_MAY_2021\Loops\bin\Debug\netcoreapp3.1\Loops.exe
+C:\Users\dario\Desktop\AHBC.DotNet.May.2021\AHBC_DOTNET_MAY_2021\Loops\bin\Debug\netcoreapp3.1\Loops.deps.json
+C:\Users\dario\Desktop\AHBC.DotNet.May.2021\AHBC_DOTNET_MAY_2021\Loops\bin\Debug\netcoreapp3.1\Loops.runtimeconfig.json
+C:\Users\dario\Desktop\AHBC.DotNet.May.2021\AHBC_DOTNET_MAY_2021\Loops\bin\Debug\netcoreapp3.1\Loops.runtimeconfig.dev.json
+C:\Users\dario\Desktop\AHBC.DotNet.May.2021\AHBC_DOTNET_MAY_2021\Loops\bin\Debug\netcoreapp3.1\Loops.dll
+C:\Users\dario\Desktop\AHBC.DotNet.May.2021\AHBC_DOTNET_MAY_2021\Loops\bin\Debug\netcoreapp3.1\Loops.pdb
+C:\Users\dario\Desktop\AHBC.DotNet.May.2021\AHBC_DOTNET_MAY_2021\Loops\obj\Debug\netcoreapp3.1\Loops.csproj.AssemblyReference.cache
+C:\Users\dario\Desktop\AHBC.DotNet.May.2021\AHBC_DOTNET_MAY_2021\Loops\obj\Debug\netcoreapp3.1\Loops.AssemblyInfoInputs.cache
+C:\Users\dario\Desktop\AHBC.DotNet.May.2021\AHBC_DOTNET_MAY_2021\Loops\obj\Debug\netcoreapp3.1\Loops.AssemblyInfo.cs
+C:\Users\dario\Desktop\AHBC.DotNet.May.2021\AHBC_DOTNET_MAY_2021\Loops\obj\Debug\netcoreapp3.1\Loops.csproj.CoreCompileInputs.cache
+C:\Users\dario\Desktop\AHBC.DotNet.May.2021\AHBC_DOTNET_MAY_2021\Loops\obj\Debug\netcoreapp3.1\Loops.dll
+C:\Users\dario\Desktop\AHBC.DotNet.May.2021\AHBC_DOTNET_MAY_2021\Loops\obj\Debug\netcoreapp3.1\Loops.pdb
+C:\Users\dario\Desktop\AHBC.DotNet.May.2021\AHBC_DOTNET_MAY_2021\Loops\obj\Debug\netcoreapp3.1\Loops.genruntimeconfig.cache

@@ -8,6 +8,15 @@ namespace MVCExample.Services
 {
     public class BookService
     {
+        //private CalculatorService _calculatorService;
+        //private LoggerService loggerService;
+        //private EvaluationService evaluationService;
+        //public BookService(CalculatorService calculatorService, 
+        //                    EvaluationService evaluationService, 
+        //                    LoggerService loggerService)
+        //{
+
+        //}
         public List<Book> Books { get; set; }
         public LibraryViewModel CreateLibraryModel()
         {

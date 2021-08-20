@@ -1,0 +1,14 @@
+﻿@model string
+<h1>Guid on page: @Model</h1>
+<br />
+<partial name="_Scoped" />
+<br />
+<h3>Scoped : It is created once per request.</h3>
+
+<p>
+    What is this life cycle useful for?
+</p>
+<ul>
+    <li>DBContext(Connection)</li>
+    <li>Persisting state throughtout application per request.</li>
+</ul>

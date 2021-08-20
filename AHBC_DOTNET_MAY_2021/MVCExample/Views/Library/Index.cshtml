@@ -17,3 +17,7 @@ else
         <li>@Html.ActionLink($"{book.Name}", "ViewBook", "Library", new { id = book.Id })</li>
     }
 }
+
+<h2>Here is an option to create your own book !</h2>
+
+<p>@Html.ActionLink("Create A Book", "Create", "Library")</p>

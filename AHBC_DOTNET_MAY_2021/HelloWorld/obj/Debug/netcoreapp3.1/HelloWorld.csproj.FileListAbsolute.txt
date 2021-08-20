@@ -22,3 +22,4 @@ C:\Users\dario\Desktop\AHBC.DotNet.May.2021\AHBC_DOTNET_MAY_2021\HelloWorld\obj\
 C:\Users\dario\Desktop\AHBC.DotNet.May.2021\AHBC_DOTNET_MAY_2021\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.dll
 C:\Users\dario\Desktop\AHBC.DotNet.May.2021\AHBC_DOTNET_MAY_2021\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.pdb
 C:\Users\dario\Desktop\AHBC.DotNet.May.2021\AHBC_DOTNET_MAY_2021\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.genruntimeconfig.cache
+C:\Users\dario\Desktop\AHBC.DotNet.May.2021\AHBC_DOTNET_MAY_2021\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.csproj.AssemblyReference.cache

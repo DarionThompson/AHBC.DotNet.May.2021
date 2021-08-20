@@ -10,7 +10,13 @@ namespace MVCExample.Controllers
 {
     public class LibraryController : Controller
     {
-        private BookService _bookService = new BookService();
+        private BookService _bookService;
+
+        public LibraryController(BookService bookService)
+        {
+            _bookService = bookService;
+            
+        }
         public IActionResult Index()
         {
             //Model Hydrate ? 
@@ -32,9 +38,24 @@ namespace MVCExample.Controllers
             ViewData["LocationId"] = "Detriot, MI";
             ViewBag.LocationId = "Detroit, MI";
             TempData["LocationId"] = "Brooklyn";
-            _bookService.SetBooks();
             var book = _bookService.Books.FirstOrDefault(x => x.Id == id);
             return View(book);
+        }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        public IActionResult FormResult(Book book)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View("Create");
+            }
+            var librayModel = _bookService.CreateLibraryModel();
+            _bookService.Books.Add(book);
+            return View("index", librayModel);
         }
     }
 }

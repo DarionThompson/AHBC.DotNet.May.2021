@@ -1,16 +1,16 @@
+using IntroDependencyInjection.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using MVCExample.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MVCExample
+namespace IntroDependencyInjection
 {
     public class Startup
     {
@@ -24,7 +24,9 @@ namespace MVCExample
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddSingleton<BookService>();
+            services.AddTransient<ITransientService, TransientService>();
+            services.AddScoped<IScopedService, ScopedService>();
+            services.AddSingleton<ISingletonService, SingletonService>();
             services.AddControllersWithViews();
         }
 
@@ -50,12 +52,6 @@ namespace MVCExample
 
             app.UseEndpoints(endpoints =>
             {
-                //This is the conventional way
-                //endpoints.MapControllerRoute(
-                //    name: "Library",
-                //    pattern: "Library/{ReturnBook}",
-                //    defaults: new {controller = "Library", action= "ReturnBook" }
-                // );
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");

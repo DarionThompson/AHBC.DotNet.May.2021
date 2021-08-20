@@ -71,6 +71,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "August18thExamples", "Augus
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCExample", "MVCExample\MVCExample.csproj", "{F9D246EF-5356-48E2-83C9-AA92F54AF102}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "August19thExamples", "August19thExamples", "{758AED96-CB19-4386-BAD7-C7A0183F3C99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroDependencyInjection", "IntroDependencyInjection\IntroDependencyInjection.csproj", "{72EA2439-FB88-4D8F-A5C3-1946A1ADFA53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -145,6 +149,10 @@ Global
 		{F9D246EF-5356-48E2-83C9-AA92F54AF102}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9D246EF-5356-48E2-83C9-AA92F54AF102}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9D246EF-5356-48E2-83C9-AA92F54AF102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72EA2439-FB88-4D8F-A5C3-1946A1ADFA53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72EA2439-FB88-4D8F-A5C3-1946A1ADFA53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72EA2439-FB88-4D8F-A5C3-1946A1ADFA53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72EA2439-FB88-4D8F-A5C3-1946A1ADFA53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -167,6 +175,7 @@ Global
 		{FBCAAEEE-5972-4168-8271-A5E115A6A13C} = {635B60CD-21AC-4BBB-8B75-A85EF50811F5}
 		{CFE46A76-2581-487A-A4B5-C3F360D52EBE} = {0B1DF266-E451-4898-B541-178E46267CBA}
 		{F9D246EF-5356-48E2-83C9-AA92F54AF102} = {066E1C96-1A47-4A54-8E23-87525380C17B}
+		{72EA2439-FB88-4D8F-A5C3-1946A1ADFA53} = {758AED96-CB19-4386-BAD7-C7A0183F3C99}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5F84E2BD-3C45-4803-A529-CB75DC03B40B}
