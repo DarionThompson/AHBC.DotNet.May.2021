@@ -19,7 +19,6 @@ namespace MVCExample.Controllers
         }
         public IActionResult Index()
         {
-            //Model Hydrate ? 
             var librayModel = _bookService.CreateLibraryModel();
             
             return View(librayModel);

@@ -26,7 +26,7 @@ namespace MVCExample.Controllers
             //Internal Redirect
             //return RedirectToAction("Privacy");
             //External Redirect
-            return RedirectToAction("Index", "Library");
+            return RedirectToAction("Index", "Calculator");
         }
 
         public IActionResult Privacy()
