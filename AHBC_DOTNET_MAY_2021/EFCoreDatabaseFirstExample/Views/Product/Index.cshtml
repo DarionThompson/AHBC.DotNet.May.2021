@@ -1,0 +1,22 @@
+﻿@model List<Product>
+
+<h1>Welcome to our store</h1>
+
+<table class="table">
+    <tbody>
+        @foreach (var product in Model)
+        {
+        <tr>
+            <td>
+                @product.ProductName
+            </td>
+            <td>
+               @product.UnitPrice
+            </td>
+            <td>
+                @product.UnitsInStock
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
