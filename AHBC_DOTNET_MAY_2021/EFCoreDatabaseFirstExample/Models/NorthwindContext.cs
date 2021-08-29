@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.Extensions.Configuration;
 
 #nullable disable
 
@@ -8,15 +9,17 @@ namespace EFCoreDatabaseFirstExample.Models
 {
     public partial class NorthwindContext : DbContext
     {
+        private readonly string _connectionString;
         public NorthwindContext()
         {
         }
 
-        public NorthwindContext(DbContextOptions<NorthwindContext> options)
+        public NorthwindContext(DbContextOptions<NorthwindContext> options, IConfiguration configuration)
             : base(options)
         {
+            _connectionString = configuration.GetConnectionString("DefaultConnection");
         }
-
+        #region Dbsets
         public virtual DbSet<AlphabeticalListOfProduct> AlphabeticalListOfProducts { get; set; }
         public virtual DbSet<Category> Categories { get; set; }
         public virtual DbSet<CategorySalesFor1997> CategorySalesFor1997s { get; set; }
@@ -46,13 +49,12 @@ namespace EFCoreDatabaseFirstExample.Models
         public virtual DbSet<SummaryOfSalesByYear> SummaryOfSalesByYears { get; set; }
         public virtual DbSet<Supplier> Suppliers { get; set; }
         public virtual DbSet<Territory> Territories { get; set; }
-
+        #endregion 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("Server=(LocalDb)\\LocalDb;Database=Northwind;Trusted_Connection=true;MultipleActiveResultSets=true");
+                optionsBuilder.UseSqlServer(_connectionString);
             }
         }
 

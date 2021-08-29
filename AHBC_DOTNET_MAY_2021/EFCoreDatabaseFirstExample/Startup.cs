@@ -27,7 +27,8 @@ namespace EFCoreDatabaseFirstExample
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddDbContext<NorthwindContext>(options => options.UseSqlServer("Server=(LocalDb)\\LocalDb;Database=Northwind;Trusted_Connection=true;MultipleActiveResultSets=true"));
+            var connectionString = Configuration.GetConnectionString("DefaultConnection");
+            services.AddDbContext<NorthwindContext>(options => options.UseSqlServer(connectionString));
             services.AddTransient<ProductRepository>();
         }
 

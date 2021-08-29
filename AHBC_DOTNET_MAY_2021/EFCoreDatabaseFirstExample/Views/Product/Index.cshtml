@@ -16,6 +16,9 @@
             <td>
                 @product.UnitsInStock
             </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@product.ProductId"> Edit </a>
+            </td>
         </tr>
         }
     </tbody>

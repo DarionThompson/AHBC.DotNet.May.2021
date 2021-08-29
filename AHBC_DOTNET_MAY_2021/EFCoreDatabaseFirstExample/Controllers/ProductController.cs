@@ -23,5 +23,30 @@ namespace EFCoreDatabaseFirstExample.Controllers
             var model = await _productRepository.GetProductAsync();
             return View(model);
         }
+
+        public async Task<IActionResult> Create(Product product)
+        {
+            await _productRepository.CreateProduct(product);
+            return RedirectToAction("Index");
+        }
+
+        //[Route("Product/Edit/{id}")]
+        public async Task<IActionResult> Edit(int id)
+        {
+            var product = await _productRepository.FindProductAsync(id);
+            return View(product);
+        }
+
+        public async Task<IActionResult> EditProduct(Product product)
+        {
+            await _productRepository.UpdateProduct(product);
+            return RedirectToAction("Index");
+        }
+
+        public async Task<IActionResult> DeleteProduct(int productId)
+        {
+            await _productRepository.DeleteProduct(productId);
+            return RedirectToAction("Index");
+        }
     }
 }
