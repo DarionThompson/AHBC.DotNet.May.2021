@@ -1,0 +1,26 @@
+﻿@model List<StarsWarsPerson>
+
+
+<h1>Star Wars Folks</h1>
+
+<table class="table">
+    <tbody>
+        @foreach (var person in Model)
+        {
+        <tr>
+            <td>
+                @person.Name
+            </td>
+            <td>
+                @person.birth_year
+            </td>
+            <td>
+                @person.gender
+            </td>
+            <td>
+                @person.homeworld
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
