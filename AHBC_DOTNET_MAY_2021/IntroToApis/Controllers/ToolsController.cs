@@ -3,24 +3,24 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net.Http;
 using System.Threading.Tasks;
 
 namespace IntroToApis.Controllers
 {
-    public class StarWarsController : Controller
+    public class ToolsController : Controller
     {
-        private readonly IStarWarsClient _starsWarsClient;
+        private readonly ToolsClient _starsWarsClient;
 
-        public StarWarsController(IStarWarsClient starsWarsClient)
+        
+        public ToolsController(ToolsClient starsWarsClient)
         {
             _starsWarsClient = starsWarsClient;
         }
 
         public async Task<IActionResult> Index()
         {
-            var peopleModel = await _starsWarsClient.GetPeopleAsync();
-            return View(peopleModel.StarWarsPeople);
+            var thing = await _starsWarsClient.GetToolsAsync();
+            return View(thing);
         }
     }
 }

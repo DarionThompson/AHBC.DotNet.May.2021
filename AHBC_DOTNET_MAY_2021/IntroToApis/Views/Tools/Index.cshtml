@@ -1,0 +1,20 @@
+﻿@model List<ToolsResponseModel>
+
+
+<h1>Tools Folks</h1>
+
+<table class="table">
+    <tbody>
+        @foreach (var tool in Model)
+        {
+            <tr>
+                <td>
+                    @tool.Name
+                </td>
+                <td>
+                    @tool.Price
+                <td>
+            </tr>
+        }
+    </tbody>
+</table>

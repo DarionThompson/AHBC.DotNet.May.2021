@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace IntroToApis.Models
@@ -8,10 +9,12 @@ namespace IntroToApis.Models
 
     public class StarWarsPeopleResponse
     {
-        public int count { get; set; }
-        public string next { get; set; }
-        public object previous { get; set; }
-        public List<StarsWarsPerson> results { get; set; }
+        public int Count { get; set; }
+        public string Next { get; set; }
+        public object Previous { get; set; }
+
+        [JsonPropertyName("results")]
+        public List<StarsWarsPerson> StarWarsPeople { get; set; }
     }
 
     public class StarsWarsPerson

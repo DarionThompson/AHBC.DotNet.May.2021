@@ -11,9 +11,15 @@ namespace IntroToApis.Services
     public class StarWarsClient : IStarWarsClient
     {
         private readonly HttpClient _httpClient;
+
+        private readonly JsonSerializerOptions _options;
         public StarWarsClient(HttpClient httpClient)
         {
             _httpClient = httpClient;
+            _options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            };
         }
 
         public async Task<StarWarsPeopleResponse> GetPeopleAsync()
@@ -28,7 +34,7 @@ namespace IntroToApis.Services
             var jsonResponse = await response.Content.ReadAsStringAsync();
 
             //deserialize our json and converting it to our model
-            var peopleResponse = JsonSerializer.Deserialize<StarWarsPeopleResponse>(jsonResponse);
+            var peopleResponse = JsonSerializer.Deserialize<StarWarsPeopleResponse>(jsonResponse, _options);
 
             return peopleResponse;
         }
