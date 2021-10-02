@@ -1,0 +1,20 @@
+<h2>Add Customer</h2>
+
+<form>
+  <label>Contact Name</label>
+  <input type="text" class="form-control" id="ContactName" name="ContactName" #ContactName />
+
+  <label>Company Name</label>
+  <input type="text" class="form-control" id="CompanyName" name="CompanyName" #CompanyName />
+
+  <label>Contact Title</label>
+  <input type="text" class="form-control" id="ContactTitle" name="ContactTitle" #ContactTitle />
+
+  <label>Address</label>
+  <input type="text" class="form-control" id="Address" name="Address" #Address />
+
+  <label>City</label>
+  <input type="text" class="form-control" style="margin-bottom:5px;" id="City" name="City" #City />
+
+  <button class="btn-primary btn" (click)="addCustomer(ContactName.value, CompanyName.value, ContactTitle.value, Address.value, City.value)">Add</button>
+</form>
